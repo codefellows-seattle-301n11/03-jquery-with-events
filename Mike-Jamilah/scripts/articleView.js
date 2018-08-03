@@ -63,6 +63,7 @@ articleView.handleCategoryFilter = function() {
   $('#category-filter').on('change', function() {
     if ($(this).val()){
       $('article').hide();
+      
 
   // TODO: Just like we do for #author-filter above, we should handle change events on the #category-filter element.
   // When an option with a value is selected, hide all the articles, then reveal the matches.
@@ -98,4 +99,4 @@ articleView.populateFilters();
 articleView.handleAuthorFilter();
 articleView.handleCategoryFilter();
 articleView.handleMainNav();
-})
+})};
