@@ -91,7 +91,6 @@ articleView.setTeasers = function() {
   $('article').on(click, 'read-on', function(event){
     event.preventDefault();
     (this).siblings().children('.article-body *:nth-of-type(n+2)').show();
-  $(this).attr('class', 'show-less').text('Show Less');
 });
 
 // TODONE: Call all of the above functions, once we are sure the DOM is ready.
