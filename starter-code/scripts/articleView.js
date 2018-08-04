@@ -74,7 +74,7 @@ articleView.setTeasers = function() {
   // Ideally, we'd attach this as just one event handler on the #articles section, and let it process (in other words... delegate) any .read-on clicks that happen within child nodes.
 };
 
-// TODO: Call all of the above functions, once we are sure the DOM is ready.
+// : Call all of the above functions, once we are sure the DOM is ready.
 $(document).ready(function() {
 
 })
