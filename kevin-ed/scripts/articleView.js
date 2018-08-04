@@ -39,7 +39,7 @@ articleView.populateFilters = function() {
 articleView.handleAuthorFilter = function() {
   $('#author-filter').on('change', function() {
     const author = $(this).val();
-    // REVIEW: Inside this function, "this" is the element that triggered the event handler function we are defining. "$(this)" is using jQuery to select that element (analogous to event.target that we have seen before), so we can chain jQuery methods onto it.
+    // REVIEWED: Inside this function, "this" is the element that triggered the event handler function we are defining. "$(this)" is using jQuery to select that element (analogous to event.target that we have seen before), so we can chain jQuery methods onto it.
     if (author.length > 0) {
       // TODONE: If the <select> menu was changed to an option that has a value, we first need to hide all the articles, and then show just the ones that match for the author that was selected.
       // Use an "attribute selector" to find those articles, and fade them in for the reader.
@@ -90,7 +90,7 @@ articleView.handleMainNav = function() {
 }
 
 articleView.setTeasers = function() {
-  // REVIEW: Hide elements beyond the first 2 in any article body.
+  // REVIEWED: Hide elements beyond the first 2 in any article body.
   $('.article-body *:nth-of-type(n+2)').hide();
 
   // TODONE: Add an event handler to reveal all the hidden elements, when the .read-on link is clicked. You can go ahead and hide the "Read On" link once it has been clicked. Be sure to prevent the default link-click action!
