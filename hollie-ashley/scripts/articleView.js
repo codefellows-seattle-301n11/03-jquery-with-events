@@ -59,7 +59,6 @@ articleView.handleCategoryFilter = function() {
     if ($(this).val()) {
       $('article').hide();
       $(`article[data-category="${$(this).val()}"]`).fadeIn();
-      // $(`article[data-category="' + $(this).val() + '"]`).fadeIn();
     } else {
       $('article').fadeIn();
       $('.template').hide();
