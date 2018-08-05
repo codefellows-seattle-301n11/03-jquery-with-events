@@ -1,10 +1,10 @@
 'use strict';
-console.log('The End')
+
 // REVIEWED: Configure an object to hold all of our functions for dynamic updates and article-related event handlers.
 let articleView = {};
 
 articleView.populateFilters = function() {
-  console.log('finderror');
+
   $('article').each(function() {
     // REVIEWED: We can declare several variables at once and assign their values later when using let. Keep in mind that we cannot do this with const.
     let authorName, category, optionTag;
@@ -19,8 +19,7 @@ articleView.populateFilters = function() {
       
       if ($('#author-filter option[value="' + authorName + '"]').length === 0) {
         $('#author-filter').append(optionTag);
-        console.log(optionTag);
-      }
+        }
 
       // REVIEW: Similar to the above, but...
       // Avoid duplicates! We don't want to append the category name if the <select> already has this category as an option!
