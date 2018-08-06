@@ -100,3 +100,38 @@ _Your README.md must include:_
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
 -->
 ```
+
+# Project Name
+
+**Author**: Harry Hayden, James Portune, Nicholas Welch
+**Version**: 1.0.0 (increment the patch/fix version number up if you make more commits past your first submission)
+
+## Overview
+<!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for a Code Fellows 301 class. (i.e. What's your problem domain?) -->
+
+The purpose of this application is to use jQuery to create a blog that filters by author and category. The blog should be a single page application; appropriate content will populate depending on which navigation item you choose. Each blog post should show a teaser of content with a choice to expand to read the full article.
+
+## Getting Started
+<!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
+
+In order to use this program and get it running on your own computer, you will need to go to the [GitHub link](https://github.com/codepuff/03-jquery-with-events), fork the repository, and then clone it down to your machine. 
+
+## Architecture
+<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
+
+This program utilizes HTML, CSS, JavaScript, and jQuery. The CSS is categorized using the SMACSS method. It also includes an icon style package from [IcoMoon](https://icomoon.io/).
+
+## Change Log
+<!-- Use this are to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an examples:
+
+01-01-2001 4:59pm - Application now has a fully-functional express server, with GET and POST routes for the book resource.
+
+## Credits and Collaborations
+<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
+-->
+
+[jQuery Library on CDN](https://code.jquery.com/)
+
+[Online jQuery Cheat Sheet](https://oscarotero.com/jquery/)
+
+[IcoMoon Icon Packages](https://icomoon.io/)
